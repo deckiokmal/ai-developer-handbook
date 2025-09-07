@@ -36,7 +36,6 @@ markdown_extensions:
       permalink: true
 
 extra_javascript:
-  - assets/js/mermaid.min.js
   - assets/js/mermaid-init.js
   - https://unpkg.com/mermaid@10.4.0/dist/mermaid.min.js
 
