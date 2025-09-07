@@ -23,8 +23,12 @@ plugins:
   - search
 
 markdown_extensions:
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
   - admonition
-  - pymdownx.superfences
   - pymdownx.details
   - pymdownx.highlight
   - pymdownx.tabbed
@@ -36,8 +40,8 @@ markdown_extensions:
       permalink: true
 
 extra_javascript:
-  - assets/js/mermaid-init.js
   - https://unpkg.com/mermaid@10.4.0/dist/mermaid.min.js
+  - assets/js/mermaid-init.js
 
 nav:
   - Home: index.md
