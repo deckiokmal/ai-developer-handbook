@@ -3,6 +3,7 @@ site_description: "AI Developer Contract and Guidance"
 site_url: "https://deckiokmal.github.io/ai-developer-handbook/"
 repo_url: "https://github.com/deckiokmal/ai-developer-handbook"
 repo_name: "ai-developer-handbook"
+edit_uri: edit/main/docs/
 
 theme:
   name: material
