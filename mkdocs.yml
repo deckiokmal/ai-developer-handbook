@@ -82,3 +82,12 @@ nav:
     - adr/0003-authn-jwt-rbac.md
     - adr/0004-mfa-adoption.md
     - adr/0005-api-first-contract.md
+    - adr/0006-type-annotation.md
+    - adr/0007-logging-and-user-notification.md
+    - adr/0008-concurrent-best-practices.md
+    - adr/0009-io-bound-vs-cpu-bound.md
+    - adr/0010-resource-workload.md
+    - adr/0011-prompt-template-refactor.md
+    - adr/0012-quart-framework.md
+    - adr/0013-structured-output.md
+    - adr/0014-linux-systemd-service.md
