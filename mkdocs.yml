@@ -1,0 +1,84 @@
+site_name: AI Developer Handbook
+site_description: "AI Developer Contract and Guidance"
+site_url: "https://handbook-developer.bencoolentech.com"
+repo_url: "https://github.com/deckiokmal/ai-developer-handbook"
+repo_name: "ai-developer-handbook"
+
+theme:
+  name: material
+  logo: assets/logo.svg
+  favicon: assets/favicon.png
+  features:
+    - navigation.sections
+    - navigation.top
+    - navigation.instant
+    - content.code.copy
+    - content.action.edit
+    - search.suggest
+    - search.highlight
+    - toc.integrate
+
+plugins:
+  - search
+  - mermaid2
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - def_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - pymdownx.tabbed
+
+nav:
+  - Home: index.md
+  - Foundations:
+    - 00-foundations/overview.md
+    - 00-foundations/glossary.md
+    - 00-foundations/tenets.md
+  - Process:
+    - 01-process/sprint-0.md
+    - 01-process/adr-guide.md
+    - 01-process/api-lifecycle.md
+  - Architecture:
+    - 02-architecture/api-first.md
+    - 02-architecture/security-baseline.md
+    - 02-architecture/auth/jwt.md
+    - 02-architecture/auth/rbac.md
+    - 02-architecture/auth/mfa.md
+  - Guides:
+    - 03-guides/openapi-style-guide.md
+    - 03-guides/secrets-management.md
+    - 03-guides/logging-observability.md
+    - 03-guides/ci-cd-security.md
+  - Checklists:
+    - 04-checklists/pre-dev-checklist.md
+    - 04-checklists/appsec-checklist.md
+    - 04-checklists/deployment-checklist.md
+    - 04-checklists/data-protection-checklist.md
+  - Templates:
+    - 05-templates/adr-template.md
+    - 05-templates/security-review-template.md
+    - 05-templates/threat-model-template.md
+    - 05-templates/api-change-template.md
+  - Examples:
+    - 06-examples/openapi.yaml
+  - Ops:
+    - 07-ops/incident-response-runbook.md
+    - 07-ops/backup-restore.md
+  - Governance:
+    - 08-governance/contributing.md
+    - 08-governance/code-of-conduct.md
+    - 08-governance/versioning-release.md
+    - 08-governance/doc-maintenance.md
+  - ADR:
+    - adr/0001-record-architecture-decisions.md
+    - adr/0002-security-baseline.md
+    - adr/0003-authn-jwt-rbac.md
+    - adr/0004-mfa-adoption.md
+    - adr/0005-api-first-contract.md
