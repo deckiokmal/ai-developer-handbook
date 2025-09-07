@@ -38,6 +38,7 @@ markdown_extensions:
 extra_javascript:
   - assets/js/mermaid.min.js
   - assets/js/mermaid-init.js
+  - https://unpkg.com/mermaid@10.4.0/dist/mermaid.min.js
 
 nav:
   - Home: index.md
