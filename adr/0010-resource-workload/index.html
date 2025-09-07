@@ -13,6 +13,10 @@
         <link rel="canonical" href="https://deckiokmal.github.io/ai-developer-handbook/adr/0010-resource-workload/">
       
       
+        <link rel="prev" href="../0009-io-bound-vs-cpu-bound/">
+      
+      
+        <link rel="next" href="../0011-prompt-template-refactor/">
       
       
       <link rel="icon" href="../../assets/favicon.png">
@@ -1379,8 +1383,10 @@
       
   
   
+    
   
   
+  
     
     
     
@@ -1391,11 +1397,11 @@
       
     
     
-    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_11" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_11" checked>
         
           
           <label class="md-nav__link" for="__nav_11" id="__nav_11_label" tabindex="">
@@ -1411,7 +1417,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_11_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_11_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_11">
             <span class="md-nav__icon md-icon"></span>
             ADR
@@ -1523,6 +1529,342 @@
   
   <span class="md-ellipsis">
     0005 - API-First contract
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../0006-type-annotation/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    0006 type annotation
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../0007-logging-and-user-notification/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    📘 Logging, Audit Trail, Debugging &amp; User Notification Policy
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../0008-concurrent-best-practices/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    📘 Dokumentasi Asynchronous, Threading, dan Hubungan dengan Workload
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../0009-io-bound-vs-cpu-bound/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    0009 io bound vs cpu bound
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    📘 Dokumentasi: Memahami Bound dalam Komputasi
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    📘 Dokumentasi: Memahami Bound dalam Komputasi
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-apa-itu-bound" class="md-nav__link">
+    <span class="md-ellipsis">
+      🔹 1. Apa itu Bound?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-jenis-jenis-bound" class="md-nav__link">
+    <span class="md-ellipsis">
+      🔹 2. Jenis-Jenis Bound
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="🔹 2. Jenis-Jenis Bound">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#cpu-bound" class="md-nav__link">
+    <span class="md-ellipsis">
+      🖥️ CPU-bound
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ram-bound" class="md-nav__link">
+    <span class="md-ellipsis">
+      💾 RAM-bound
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#gpu-bound" class="md-nav__link">
+    <span class="md-ellipsis">
+      🎮 GPU-bound
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#io-bound" class="md-nav__link">
+    <span class="md-ellipsis">
+      🌐 I/O-bound
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-bagaimana-mengetahui-aplikasi-saya-bound-di-mana" class="md-nav__link">
+    <span class="md-ellipsis">
+      🔹 3. Bagaimana Mengetahui Aplikasi Saya Bound di Mana?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-panduan-alokasi-resource-praktis" class="md-nav__link">
+    <span class="md-ellipsis">
+      🔹 4. Panduan Alokasi Resource (Praktis)
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-intuisi-sederhana-rule-of-thumb" class="md-nav__link">
+    <span class="md-ellipsis">
+      🔹 5. Intuisi Sederhana (Rule of Thumb)
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../0011-prompt-template-refactor/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    0011 prompt template refactor
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../0012-quart-framework/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    0012 quart framework
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../0013-structured-output/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    0013 structured output
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../0014-linux-systemd-service/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    0014 linux systemd service
     
   </span>
   

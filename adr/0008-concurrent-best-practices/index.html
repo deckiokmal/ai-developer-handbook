@@ -13,6 +13,10 @@
         <link rel="canonical" href="https://deckiokmal.github.io/ai-developer-handbook/adr/0008-concurrent-best-practices/">
       
       
+        <link rel="prev" href="../0007-logging-and-user-notification/">
+      
+      
+        <link rel="next" href="../0009-io-bound-vs-cpu-bound/">
       
       
       <link rel="icon" href="../../assets/favicon.png">
@@ -1379,8 +1383,10 @@
       
   
   
+    
   
   
+  
     
     
     
@@ -1391,11 +1397,11 @@
       
     
     
-    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_11" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_11" checked>
         
           
           <label class="md-nav__link" for="__nav_11" id="__nav_11_label" tabindex="">
@@ -1411,7 +1417,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_11_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_11_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_11">
             <span class="md-nav__icon md-icon"></span>
             ADR
@@ -1523,6 +1529,483 @@
   
   <span class="md-ellipsis">
     0005 - API-First contract
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../0006-type-annotation/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    0006 type annotation
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../0007-logging-and-user-notification/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    📘 Logging, Audit Trail, Debugging &amp; User Notification Policy
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    📘 Dokumentasi Asynchronous, Threading, dan Hubungan dengan Workload
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    📘 Dokumentasi Asynchronous, Threading, dan Hubungan dengan Workload
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-definisi" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Definisi
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1. Definisi">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#asynchronous-programming-async" class="md-nav__link">
+    <span class="md-ellipsis">
+      🔹 Asynchronous Programming (Async)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#multithreading" class="md-nav__link">
+    <span class="md-ellipsis">
+      🔹 Multithreading
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#multiprocessing" class="md-nav__link">
+    <span class="md-ellipsis">
+      🔹 Multiprocessing
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-perbedaan-dengan-synchronous" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Perbedaan dengan Synchronous
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2. Perbedaan dengan Synchronous">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#synchronous-blocking" class="md-nav__link">
+    <span class="md-ellipsis">
+      Synchronous (blocking)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#asynchronous-non-blocking" class="md-nav__link">
+    <span class="md-ellipsis">
+      Asynchronous (non-blocking)
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-konsep-utama-async" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Konsep Utama Async
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-kapan-dipakai" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. Kapan Dipakai?
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4. Kapan Dipakai?">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#async" class="md-nav__link">
+    <span class="md-ellipsis">
+      📌 Async
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#threading" class="md-nav__link">
+    <span class="md-ellipsis">
+      📌 Threading
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#multiprocessing_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      📌 Multiprocessing
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-contoh-kombinasi" class="md-nav__link">
+    <span class="md-ellipsis">
+      5. Contoh Kombinasi
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="5. Contoh Kombinasi">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#async-thread-untuk-library-blocking" class="md-nav__link">
+    <span class="md-ellipsis">
+      Async + Thread (untuk library blocking)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#async-process-untuk-cpu-berat" class="md-nav__link">
+    <span class="md-ellipsis">
+      Async + Process (untuk CPU berat)
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-tabel-perbandingan" class="md-nav__link">
+    <span class="md-ellipsis">
+      6. Tabel Perbandingan
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="6. Tabel Perbandingan">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#sync-vs-async" class="md-nav__link">
+    <span class="md-ellipsis">
+      🔄 Sync vs Async
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#thread-vs-multiprocessing" class="md-nav__link">
+    <span class="md-ellipsis">
+      🔄 Thread vs Multiprocessing
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7-hubungan-workloadbound-dengan-async-thread-process" class="md-nav__link">
+    <span class="md-ellipsis">
+      7. Hubungan Workload/Bound dengan Async, Thread, Process
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#8-kesimpulan" class="md-nav__link">
+    <span class="md-ellipsis">
+      8. Kesimpulan
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#9-decision-tree-diagram" class="md-nav__link">
+    <span class="md-ellipsis">
+      9. Decision Tree Diagram
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cara-pakai-cepat" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cara pakai cepat
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../0009-io-bound-vs-cpu-bound/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    0009 io bound vs cpu bound
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../0010-resource-workload/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    📘 Dokumentasi: Memahami Bound dalam Komputasi
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../0011-prompt-template-refactor/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    0011 prompt template refactor
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../0012-quart-framework/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    0012 quart framework
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../0013-structured-output/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    0013 structured output
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../0014-linux-systemd-service/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    0014 linux systemd service
     
   </span>
   
