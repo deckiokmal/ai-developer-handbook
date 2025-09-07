@@ -99,4 +99,3 @@ nav:
     - adr/0012-quart-framework.md
     - adr/0013-structured-output.md
     - adr/0014-linux-systemd-service.md
-    - adr/0015-test-mermaid.md
