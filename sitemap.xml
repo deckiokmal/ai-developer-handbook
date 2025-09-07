@@ -1,179 +1,179 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-         <loc>https://handbook-developer.bencoolentech.com/</loc>
+         <loc>https://deckiokmal.github.io/ai-developer-handbook/</loc>
          <lastmod>2025-09-07</lastmod>
     </url>
     <url>
-         <loc>https://handbook-developer.bencoolentech.com/00-foundations/glossary/</loc>
+         <loc>https://deckiokmal.github.io/ai-developer-handbook/00-foundations/glossary/</loc>
          <lastmod>2025-09-07</lastmod>
     </url>
     <url>
-         <loc>https://handbook-developer.bencoolentech.com/00-foundations/overview/</loc>
+         <loc>https://deckiokmal.github.io/ai-developer-handbook/00-foundations/overview/</loc>
          <lastmod>2025-09-07</lastmod>
     </url>
     <url>
-         <loc>https://handbook-developer.bencoolentech.com/00-foundations/tenets/</loc>
+         <loc>https://deckiokmal.github.io/ai-developer-handbook/00-foundations/tenets/</loc>
          <lastmod>2025-09-07</lastmod>
     </url>
     <url>
-         <loc>https://handbook-developer.bencoolentech.com/01-process/adr-guide/</loc>
+         <loc>https://deckiokmal.github.io/ai-developer-handbook/01-process/adr-guide/</loc>
          <lastmod>2025-09-07</lastmod>
     </url>
     <url>
-         <loc>https://handbook-developer.bencoolentech.com/01-process/api-lifecycle/</loc>
+         <loc>https://deckiokmal.github.io/ai-developer-handbook/01-process/api-lifecycle/</loc>
          <lastmod>2025-09-07</lastmod>
     </url>
     <url>
-         <loc>https://handbook-developer.bencoolentech.com/01-process/sprint-0/</loc>
+         <loc>https://deckiokmal.github.io/ai-developer-handbook/01-process/sprint-0/</loc>
          <lastmod>2025-09-07</lastmod>
     </url>
     <url>
-         <loc>https://handbook-developer.bencoolentech.com/02-architecture/api-first/</loc>
+         <loc>https://deckiokmal.github.io/ai-developer-handbook/02-architecture/api-first/</loc>
          <lastmod>2025-09-07</lastmod>
     </url>
     <url>
-         <loc>https://handbook-developer.bencoolentech.com/02-architecture/security-baseline/</loc>
+         <loc>https://deckiokmal.github.io/ai-developer-handbook/02-architecture/security-baseline/</loc>
          <lastmod>2025-09-07</lastmod>
     </url>
     <url>
-         <loc>https://handbook-developer.bencoolentech.com/02-architecture/auth/jwt/</loc>
+         <loc>https://deckiokmal.github.io/ai-developer-handbook/02-architecture/auth/jwt/</loc>
          <lastmod>2025-09-07</lastmod>
     </url>
     <url>
-         <loc>https://handbook-developer.bencoolentech.com/02-architecture/auth/mfa/</loc>
+         <loc>https://deckiokmal.github.io/ai-developer-handbook/02-architecture/auth/mfa/</loc>
          <lastmod>2025-09-07</lastmod>
     </url>
     <url>
-         <loc>https://handbook-developer.bencoolentech.com/02-architecture/auth/rbac/</loc>
+         <loc>https://deckiokmal.github.io/ai-developer-handbook/02-architecture/auth/rbac/</loc>
          <lastmod>2025-09-07</lastmod>
     </url>
     <url>
-         <loc>https://handbook-developer.bencoolentech.com/03-guides/ci-cd-security/</loc>
+         <loc>https://deckiokmal.github.io/ai-developer-handbook/03-guides/ci-cd-security/</loc>
          <lastmod>2025-09-07</lastmod>
     </url>
     <url>
-         <loc>https://handbook-developer.bencoolentech.com/03-guides/logging-observability/</loc>
+         <loc>https://deckiokmal.github.io/ai-developer-handbook/03-guides/logging-observability/</loc>
          <lastmod>2025-09-07</lastmod>
     </url>
     <url>
-         <loc>https://handbook-developer.bencoolentech.com/03-guides/openapi-style-guide/</loc>
+         <loc>https://deckiokmal.github.io/ai-developer-handbook/03-guides/openapi-style-guide/</loc>
          <lastmod>2025-09-07</lastmod>
     </url>
     <url>
-         <loc>https://handbook-developer.bencoolentech.com/03-guides/secrets-management/</loc>
+         <loc>https://deckiokmal.github.io/ai-developer-handbook/03-guides/secrets-management/</loc>
          <lastmod>2025-09-07</lastmod>
     </url>
     <url>
-         <loc>https://handbook-developer.bencoolentech.com/04-checklists/appsec-checklist/</loc>
+         <loc>https://deckiokmal.github.io/ai-developer-handbook/04-checklists/appsec-checklist/</loc>
          <lastmod>2025-09-07</lastmod>
     </url>
     <url>
-         <loc>https://handbook-developer.bencoolentech.com/04-checklists/data-protection-checklist/</loc>
+         <loc>https://deckiokmal.github.io/ai-developer-handbook/04-checklists/data-protection-checklist/</loc>
          <lastmod>2025-09-07</lastmod>
     </url>
     <url>
-         <loc>https://handbook-developer.bencoolentech.com/04-checklists/deployment-checklist/</loc>
+         <loc>https://deckiokmal.github.io/ai-developer-handbook/04-checklists/deployment-checklist/</loc>
          <lastmod>2025-09-07</lastmod>
     </url>
     <url>
-         <loc>https://handbook-developer.bencoolentech.com/04-checklists/pre-dev-checklist/</loc>
+         <loc>https://deckiokmal.github.io/ai-developer-handbook/04-checklists/pre-dev-checklist/</loc>
          <lastmod>2025-09-07</lastmod>
     </url>
     <url>
-         <loc>https://handbook-developer.bencoolentech.com/05-templates/adr-template/</loc>
+         <loc>https://deckiokmal.github.io/ai-developer-handbook/05-templates/adr-template/</loc>
          <lastmod>2025-09-07</lastmod>
     </url>
     <url>
-         <loc>https://handbook-developer.bencoolentech.com/05-templates/api-change-template/</loc>
+         <loc>https://deckiokmal.github.io/ai-developer-handbook/05-templates/api-change-template/</loc>
          <lastmod>2025-09-07</lastmod>
     </url>
     <url>
-         <loc>https://handbook-developer.bencoolentech.com/05-templates/security-review-template/</loc>
+         <loc>https://deckiokmal.github.io/ai-developer-handbook/05-templates/security-review-template/</loc>
          <lastmod>2025-09-07</lastmod>
     </url>
     <url>
-         <loc>https://handbook-developer.bencoolentech.com/05-templates/threat-model-template/</loc>
+         <loc>https://deckiokmal.github.io/ai-developer-handbook/05-templates/threat-model-template/</loc>
          <lastmod>2025-09-07</lastmod>
     </url>
     <url>
-         <loc>https://handbook-developer.bencoolentech.com/07-ops/backup-restore/</loc>
+         <loc>https://deckiokmal.github.io/ai-developer-handbook/07-ops/backup-restore/</loc>
          <lastmod>2025-09-07</lastmod>
     </url>
     <url>
-         <loc>https://handbook-developer.bencoolentech.com/07-ops/incident-response-runbook/</loc>
+         <loc>https://deckiokmal.github.io/ai-developer-handbook/07-ops/incident-response-runbook/</loc>
          <lastmod>2025-09-07</lastmod>
     </url>
     <url>
-         <loc>https://handbook-developer.bencoolentech.com/08-governance/code-of-conduct/</loc>
+         <loc>https://deckiokmal.github.io/ai-developer-handbook/08-governance/code-of-conduct/</loc>
          <lastmod>2025-09-07</lastmod>
     </url>
     <url>
-         <loc>https://handbook-developer.bencoolentech.com/08-governance/contributing/</loc>
+         <loc>https://deckiokmal.github.io/ai-developer-handbook/08-governance/contributing/</loc>
          <lastmod>2025-09-07</lastmod>
     </url>
     <url>
-         <loc>https://handbook-developer.bencoolentech.com/08-governance/doc-maintenance/</loc>
+         <loc>https://deckiokmal.github.io/ai-developer-handbook/08-governance/doc-maintenance/</loc>
          <lastmod>2025-09-07</lastmod>
     </url>
     <url>
-         <loc>https://handbook-developer.bencoolentech.com/08-governance/versioning-release/</loc>
+         <loc>https://deckiokmal.github.io/ai-developer-handbook/08-governance/versioning-release/</loc>
          <lastmod>2025-09-07</lastmod>
     </url>
     <url>
-         <loc>https://handbook-developer.bencoolentech.com/adr/0001-record-architecture-decisions/</loc>
+         <loc>https://deckiokmal.github.io/ai-developer-handbook/adr/0001-record-architecture-decisions/</loc>
          <lastmod>2025-09-07</lastmod>
     </url>
     <url>
-         <loc>https://handbook-developer.bencoolentech.com/adr/0002-security-baseline/</loc>
+         <loc>https://deckiokmal.github.io/ai-developer-handbook/adr/0002-security-baseline/</loc>
          <lastmod>2025-09-07</lastmod>
     </url>
     <url>
-         <loc>https://handbook-developer.bencoolentech.com/adr/0003-authn-jwt-rbac/</loc>
+         <loc>https://deckiokmal.github.io/ai-developer-handbook/adr/0003-authn-jwt-rbac/</loc>
          <lastmod>2025-09-07</lastmod>
     </url>
     <url>
-         <loc>https://handbook-developer.bencoolentech.com/adr/0004-mfa-adoption/</loc>
+         <loc>https://deckiokmal.github.io/ai-developer-handbook/adr/0004-mfa-adoption/</loc>
          <lastmod>2025-09-07</lastmod>
     </url>
     <url>
-         <loc>https://handbook-developer.bencoolentech.com/adr/0005-api-first-contract/</loc>
+         <loc>https://deckiokmal.github.io/ai-developer-handbook/adr/0005-api-first-contract/</loc>
          <lastmod>2025-09-07</lastmod>
     </url>
     <url>
-         <loc>https://handbook-developer.bencoolentech.com/adr/0006-type-annotation/</loc>
+         <loc>https://deckiokmal.github.io/ai-developer-handbook/adr/0006-type-annotation/</loc>
          <lastmod>2025-09-07</lastmod>
     </url>
     <url>
-         <loc>https://handbook-developer.bencoolentech.com/adr/0007-logging-and-user-notification/</loc>
+         <loc>https://deckiokmal.github.io/ai-developer-handbook/adr/0007-logging-and-user-notification/</loc>
          <lastmod>2025-09-07</lastmod>
     </url>
     <url>
-         <loc>https://handbook-developer.bencoolentech.com/adr/0008-concurrent-best-practices/</loc>
+         <loc>https://deckiokmal.github.io/ai-developer-handbook/adr/0008-concurrent-best-practices/</loc>
          <lastmod>2025-09-07</lastmod>
     </url>
     <url>
-         <loc>https://handbook-developer.bencoolentech.com/adr/0009-io-bound-vs-cpu-bound/</loc>
+         <loc>https://deckiokmal.github.io/ai-developer-handbook/adr/0009-io-bound-vs-cpu-bound/</loc>
          <lastmod>2025-09-07</lastmod>
     </url>
     <url>
-         <loc>https://handbook-developer.bencoolentech.com/adr/0010-resource-workload/</loc>
+         <loc>https://deckiokmal.github.io/ai-developer-handbook/adr/0010-resource-workload/</loc>
          <lastmod>2025-09-07</lastmod>
     </url>
     <url>
-         <loc>https://handbook-developer.bencoolentech.com/adr/0011-prompt-template-refactor/</loc>
+         <loc>https://deckiokmal.github.io/ai-developer-handbook/adr/0011-prompt-template-refactor/</loc>
          <lastmod>2025-09-07</lastmod>
     </url>
     <url>
-         <loc>https://handbook-developer.bencoolentech.com/adr/0012-quart-framework/</loc>
+         <loc>https://deckiokmal.github.io/ai-developer-handbook/adr/0012-quart-framework/</loc>
          <lastmod>2025-09-07</lastmod>
     </url>
     <url>
-         <loc>https://handbook-developer.bencoolentech.com/adr/0013-structured-output/</loc>
+         <loc>https://deckiokmal.github.io/ai-developer-handbook/adr/0013-structured-output/</loc>
          <lastmod>2025-09-07</lastmod>
     </url>
     <url>
-         <loc>https://handbook-developer.bencoolentech.com/adr/0014-linux-systemd-service/</loc>
+         <loc>https://deckiokmal.github.io/ai-developer-handbook/adr/0014-linux-systemd-service/</loc>
          <lastmod>2025-09-07</lastmod>
     </url>
 </urlset>
