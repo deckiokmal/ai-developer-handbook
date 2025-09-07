@@ -21,20 +21,23 @@ theme:
 
 plugins:
   - search
-  - mermaid2
 
 markdown_extensions:
   - admonition
+  - pymdownx.superfences
+  - pymdownx.details
+  - pymdownx.highlight
+  - pymdownx.tabbed
   - attr_list
   - def_list
   - md_in_html
   - tables
   - toc:
       permalink: true
-  - pymdownx.details
-  - pymdownx.highlight
-  - pymdownx.superfences
-  - pymdownx.tabbed
+
+extra_javascript:
+  - assets/js/mermaid.min.js
+  - assets/js/mermaid-init.js
 
 nav:
   - Home: index.md
